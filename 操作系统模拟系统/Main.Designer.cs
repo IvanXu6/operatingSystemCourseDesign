@@ -180,6 +180,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "Main";
             this.Text = "操作系统课程设计";
+            this.Load += new System.EventHandler(this.Main_Load);
             this.flowLayoutPanel1.ResumeLayout(false);
             this.flowLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);

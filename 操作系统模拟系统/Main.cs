@@ -31,5 +31,10 @@ namespace 操作系统模拟系统
         {
 
         }
+
+        private void Main_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
