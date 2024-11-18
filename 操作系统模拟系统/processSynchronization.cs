@@ -8,16 +8,11 @@ using System.Windows.Forms;
 
 namespace 操作系统模拟系统
 {
-    public partial class processScheduing : 操作系统模拟系统.Main
+    public partial class processSynchronization : 操作系统模拟系统.Main
     {
-        public processScheduing()
+        public processSynchronization()
         {
             InitializeComponent();
-        }
-
-        private void flowLayoutPanel3_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }
