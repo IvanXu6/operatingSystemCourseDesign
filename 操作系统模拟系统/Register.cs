@@ -10,20 +10,19 @@ using System.Windows.Forms;
 
 namespace 操作系统模拟系统
 {
-    
-    public partial class Main : Form
+    public partial class Register : Form
     {
-        public Main()
+        public Register()
         {
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
 
-        private void textBox1_TextChanged_1(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }
@@ -33,17 +32,14 @@ namespace 操作系统模拟系统
 
         }
 
-        private void button8_Click(object sender, EventArgs e)
+        private void button5_Click(object sender, EventArgs e)
         {
-            
+
         }
 
-        private void button9_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Register window = new Register();
-            window.Show();
-
+            
         }
     }
 }

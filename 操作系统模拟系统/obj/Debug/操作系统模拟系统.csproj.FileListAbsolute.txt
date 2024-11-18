@@ -8,3 +8,15 @@ C:\Users\ivanx\Documents\GitHub\Operating-system-course-design\操作系统模�
 C:\Users\ivanx\Documents\GitHub\Operating-system-course-design\操作系统模拟系统\obj\Debug\操作系统模拟系统.exe
 C:\Users\ivanx\Documents\GitHub\Operating-system-course-design\操作系统模拟系统\obj\Debug\操作系统模拟系统.pdb
 C:\Users\ivanx\Documents\GitHub\Operating-system-course-design\操作系统模拟系统\obj\Debug\操作系统模拟系统.Main.resources
+E:\Github desktop\Operating-system-course-design\操作系统模拟系统\bin\Debug\操作系统模拟系统.exe.config
+E:\Github desktop\Operating-system-course-design\操作系统模拟系统\bin\Debug\操作系统模拟系统.exe
+E:\Github desktop\Operating-system-course-design\操作系统模拟系统\bin\Debug\操作系统模拟系统.pdb
+E:\Github desktop\Operating-system-course-design\操作系统模拟系统\obj\Debug\操作系统模拟系统.csproj.AssemblyReference.cache
+E:\Github desktop\Operating-system-course-design\操作系统模拟系统\obj\Debug\操作系统模拟系统.Main.resources
+E:\Github desktop\Operating-system-course-design\操作系统模拟系统\obj\Debug\操作系统模拟系统.Properties.Resources.resources
+E:\Github desktop\Operating-system-course-design\操作系统模拟系统\obj\Debug\操作系统模拟系统.Register.resources
+E:\Github desktop\Operating-system-course-design\操作系统模拟系统\obj\Debug\操作系统模拟系统.csproj.GenerateResource.cache
+E:\Github desktop\Operating-system-course-design\操作系统模拟系统\obj\Debug\操作系统模拟系统.csproj.CoreCompileInputs.cache
+E:\Github desktop\Operating-system-course-design\操作系统模拟系统\obj\Debug\操作系统模拟系统.exe
+E:\Github desktop\Operating-system-course-design\操作系统模拟系统\obj\Debug\操作系统模拟系统.pdb
+E:\Github desktop\Operating-system-course-design\操作系统模拟系统\obj\Debug\操作系统模拟系统.SignIn.resources
