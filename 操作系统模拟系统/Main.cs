@@ -57,5 +57,10 @@ namespace 操作系统模拟系统
         {
 
         }
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
