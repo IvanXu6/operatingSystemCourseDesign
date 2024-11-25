@@ -9,3 +9,4 @@ C:\Users\ivanx\Documents\GitHub\Operating-system-course-design\操作系统模�
 C:\Users\ivanx\Documents\GitHub\Operating-system-course-design\操作系统模拟系统\obj\Debug\操作系统模拟系统.pdb
 C:\Users\ivanx\Documents\GitHub\Operating-system-course-design\操作系统模拟系统\obj\Debug\操作系统模拟系统.Main.resources
 C:\Users\ivanx\Documents\GitHub\Operating-system-course-design\操作系统模拟系统\obj\Debug\操作系统模拟系统.processScheduing.resources
+C:\Users\ivanx\Documents\GitHub\Operating-system-course-design\操作系统模拟系统\obj\Debug\操作系统模拟系统.processSynchronization.resources

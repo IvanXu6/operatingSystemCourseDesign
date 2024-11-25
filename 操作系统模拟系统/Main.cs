@@ -62,5 +62,28 @@ namespace 操作系统模拟系统
         {
 
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            processScheduing processScheduing = new processScheduing();
+            processScheduing.Show();
+            this.Hide();
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            processSynchronization processSynchronization =new processSynchronization();
+            processSynchronization.Show();
+            this.Hide();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            Main main = new Main();
+            main.Show();
+            if (this != main)
+                Close();
+        }
     }
 }

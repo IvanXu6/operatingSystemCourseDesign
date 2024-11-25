@@ -184,6 +184,7 @@
             this.label2.Size = new System.Drawing.Size(90, 26);
             this.label2.TabIndex = 3;
             this.label2.Text = "仪表盘";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // pictureBox2
             // 
@@ -247,6 +248,7 @@
             this.label4.Size = new System.Drawing.Size(168, 26);
             this.label4.TabIndex = 3;
             this.label4.Text = "进程调度展示";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // pictureBox4
             // 
@@ -278,6 +280,7 @@
             this.label5.Size = new System.Drawing.Size(168, 26);
             this.label5.TabIndex = 3;
             this.label5.Text = "进程同步展示";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // pictureBox5
             // 
@@ -614,6 +617,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
+            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(1844, 912);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.panel1);

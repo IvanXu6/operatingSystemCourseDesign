@@ -266,6 +266,7 @@
             // processScheduing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
+            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(1844, 912);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button10);
