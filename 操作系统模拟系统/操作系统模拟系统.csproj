@@ -46,11 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="processCommunication.cs">
+    <Compile Include="processControl.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="processCommunication.Designer.cs">
-      <DependentUpon>processCommunication.cs</DependentUpon>
+    <Compile Include="processControl.Designer.cs">
+      <DependentUpon>processControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="processDeadlockHandling.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="processDeadlockHandling.Designer.cs">
+      <DependentUpon>processDeadlockHandling.cs</DependentUpon>
     </Compile>
     <Compile Include="processSynchronization.cs">
       <SubType>Form</SubType>
@@ -74,6 +80,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="processControl.resx">
+      <DependentUpon>processControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="processDeadlockHandling.resx">
+      <DependentUpon>processDeadlockHandling.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="processScheduing.resx">
       <DependentUpon>processScheduing.cs</DependentUpon>

@@ -343,6 +343,7 @@
             this.label7.Size = new System.Drawing.Size(168, 26);
             this.label7.TabIndex = 3;
             this.label7.Text = "死锁处理展示";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // pictureBox7
             // 

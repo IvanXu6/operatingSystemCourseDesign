@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|solutionrelative:processcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|c:\\users\\ivanx\\documents\\github\\operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processdeadlockhandling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|solutionrelative:processdeadlockhandling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processscheduing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|solutionrelative:processscheduing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|c:\\users\\ivanx\\documents\\github\\operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processcommunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|solutionrelative:processcommunication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processcontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|solutionrelative:processcontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|c:\\users\\ivanx\\documents\\github\\operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processsynchronization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|solutionrelative:processsynchronization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processscheduing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|solutionrelative:processscheduing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processsynchronization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|solutionrelative:processsynchronization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processsynchronization.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processsynchronization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|solutionrelative:processsynchronization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processscheduing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|solutionrelative:processscheduing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,61 +54,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "processCommunication.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processCommunication.cs",
-              "RelativeDocumentMoniker": "processCommunication.cs",
-              "ToolTip": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processCommunication.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "processCommunication.cs [\u8BBE\u8BA1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T09:14:46.572Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "processSynchronization.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processSynchronization.Designer.cs",
-              "RelativeDocumentMoniker": "processSynchronization.Designer.cs",
-              "ToolTip": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processSynchronization.Designer.cs",
-              "RelativeToolTip": "processSynchronization.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T08:33:31.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "processSynchronization.cs",
-              "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processSynchronization.cs",
-              "RelativeDocumentMoniker": "processSynchronization.cs",
-              "ToolTip": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processSynchronization.cs",
-              "RelativeToolTip": "processSynchronization.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T08:28:16.938Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "processControl.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processControl.Designer.cs",
+              "RelativeDocumentMoniker": "processControl.Designer.cs",
+              "ToolTip": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processControl.Designer.cs",
+              "RelativeToolTip": "processControl.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T08:37:42.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "processControl.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processControl.cs",
+              "RelativeDocumentMoniker": "processControl.cs",
+              "ToolTip": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processControl.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "processControl.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T08:05:11.519Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "processDeadlockHandling.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processDeadlockHandling.cs",
+              "RelativeDocumentMoniker": "processDeadlockHandling.cs",
+              "ToolTip": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processDeadlockHandling.cs [Design]",
+              "RelativeToolTip": "processDeadlockHandling.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T09:14:46.572Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "processSynchronization.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processSynchronization.cs",
               "RelativeDocumentMoniker": "processSynchronization.cs",
               "ToolTip": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processSynchronization.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "processSynchronization.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T09:18:00.493Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "WhenOpened": "2024-11-18T09:18:00.493Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "processScheduing.cs",
               "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processScheduing.cs",
               "RelativeDocumentMoniker": "processScheduing.cs",
@@ -108,49 +118,69 @@
               "RelativeToolTip": "processScheduing.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T08:35:49.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T08:35:49.998Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "processScheduing.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processScheduing.cs",
               "RelativeDocumentMoniker": "processScheduing.cs",
               "ToolTip": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processScheduing.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "processScheduing.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T08:22:27.355Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "WhenOpened": "2024-11-18T08:22:27.355Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Main.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\Main.cs",
               "RelativeDocumentMoniker": "Main.cs",
               "ToolTip": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\Main.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "Main.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T08:00:40.324Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "WhenOpened": "2024-10-28T08:00:40.324Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Main.cs",
               "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\Main.cs",
               "RelativeDocumentMoniker": "Main.cs",
               "ToolTip": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\Main.cs",
               "RelativeToolTip": "Main.cs",
-              "ViewState": "AQIAAEoAAAAAAAAAAAAAAFYAAAAJAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAywFwAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T08:29:09.637Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T08:29:09.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "processSynchronization.cs",
+              "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processSynchronization.cs",
+              "RelativeDocumentMoniker": "processSynchronization.cs",
+              "ToolTip": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processSynchronization.cs",
+              "RelativeToolTip": "processSynchronization.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T08:28:16.938Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "processSynchronization.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processSynchronization.Designer.cs",
+              "RelativeDocumentMoniker": "processSynchronization.Designer.cs",
+              "ToolTip": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processSynchronization.Designer.cs",
+              "RelativeToolTip": "processSynchronization.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T08:33:31.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Main.Designer.cs",
               "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\Main.Designer.cs",
               "RelativeDocumentMoniker": "Main.Designer.cs",
@@ -158,8 +188,7 @@
               "RelativeToolTip": "Main.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T08:20:51.083Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T08:20:51.083Z"
             }
           ]
         }

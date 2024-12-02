@@ -85,5 +85,12 @@ namespace 操作系统模拟系统
             if (this != main)
                 Close();
         }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+            processDeadlockHandling processDeadlockHandling =new processDeadlockHandling();
+            processDeadlockHandling.Show();
+            this.Hide();
+        }
     }
 }

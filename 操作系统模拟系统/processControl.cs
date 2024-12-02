@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace 操作系统模拟系统
 {
-    public partial class processCommunication : 操作系统模拟系统.Main
+    public partial class processControl : 操作系统模拟系统.Main
     {
-        public processCommunication()
+        public processControl()
         {
             InitializeComponent();
         }

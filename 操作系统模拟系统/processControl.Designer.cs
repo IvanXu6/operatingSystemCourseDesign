@@ -1,6 +1,6 @@
 ﻿namespace 操作系统模拟系统
 {
-    partial class processScheduing
+    partial class processControl
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -38,18 +38,25 @@
             this.label16 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.button8 = new System.Windows.Forms.Button();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.序号 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.作业名 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.进程名 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.周期 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.服务时间 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.执行时间 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.进程状态 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
+            this.panel14 = new System.Windows.Forms.Panel();
+            this.button9 = new System.Windows.Forms.Button();
+            this.panel15 = new System.Windows.Forms.Panel();
+            this.button10 = new System.Windows.Forms.Button();
+            this.panel16 = new System.Windows.Forms.Panel();
+            this.button11 = new System.Windows.Forms.Button();
+            this.panel17 = new System.Windows.Forms.Panel();
+            this.button12 = new System.Windows.Forms.Button();
             this.flowLayoutPanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.flowLayoutPanel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // flowLayoutPanel3
@@ -63,11 +70,10 @@
             this.flowLayoutPanel3.Controls.Add(this.label16);
             this.flowLayoutPanel3.Controls.Add(this.textBox6);
             this.flowLayoutPanel3.Controls.Add(this.button8);
-            this.flowLayoutPanel3.Location = new System.Drawing.Point(308, 131);
+            this.flowLayoutPanel3.Location = new System.Drawing.Point(322, 131);
             this.flowLayoutPanel3.Name = "flowLayoutPanel3";
-            this.flowLayoutPanel3.Size = new System.Drawing.Size(1478, 69);
-            this.flowLayoutPanel3.TabIndex = 3;
-            this.flowLayoutPanel3.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel3_Paint);
+            this.flowLayoutPanel3.Size = new System.Drawing.Size(1478, 61);
+            this.flowLayoutPanel3.TabIndex = 4;
             // 
             // label13
             // 
@@ -164,27 +170,56 @@
             this.button8.Text = "创建";
             this.button8.UseVisualStyleBackColor = true;
             // 
-            // label18
+            // dataGridView1
             // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label18.Location = new System.Drawing.Point(392, 260);
-            this.label18.Margin = new System.Windows.Forms.Padding(3, 12, 3, 0);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(110, 28);
-            this.label18.TabIndex = 4;
-            this.label18.Text = "label18";
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.序号,
+            this.进程名,
+            this.周期,
+            this.执行时间,
+            this.进程状态});
+            this.dataGridView1.Location = new System.Drawing.Point(322, 327);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 62;
+            this.dataGridView1.RowTemplate.Height = 30;
+            this.dataGridView1.Size = new System.Drawing.Size(1467, 486);
+            this.dataGridView1.TabIndex = 5;
             // 
-            // label19
+            // 序号
             // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label19.Location = new System.Drawing.Point(720, 260);
-            this.label19.Margin = new System.Windows.Forms.Padding(3, 12, 3, 0);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(110, 28);
-            this.label19.TabIndex = 5;
-            this.label19.Text = "label19";
+            this.序号.HeaderText = "序号";
+            this.序号.MinimumWidth = 8;
+            this.序号.Name = "序号";
+            this.序号.Width = 250;
+            // 
+            // 进程名
+            // 
+            this.进程名.HeaderText = "进程名";
+            this.进程名.MinimumWidth = 8;
+            this.进程名.Name = "进程名";
+            this.进程名.Width = 250;
+            // 
+            // 周期
+            // 
+            this.周期.HeaderText = "周期";
+            this.周期.MinimumWidth = 8;
+            this.周期.Name = "周期";
+            this.周期.Width = 250;
+            // 
+            // 执行时间
+            // 
+            this.执行时间.HeaderText = "执行时间";
+            this.执行时间.MinimumWidth = 8;
+            this.执行时间.Name = "执行时间";
+            this.执行时间.Width = 250;
+            // 
+            // 进程状态
+            // 
+            this.进程状态.HeaderText = "进程状态";
+            this.进程状态.MinimumWidth = 8;
+            this.进程状态.Name = "进程状态";
+            this.进程状态.Width = 250;
             // 
             // comboBox1
             // 
@@ -193,101 +228,116 @@
             this.comboBox1.Items.AddRange(new object[] {
             "EDF调度算法",
             "LLF调度算法"});
-            this.comboBox1.Location = new System.Drawing.Point(968, 253);
+            this.comboBox1.Location = new System.Drawing.Point(3, 15);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 15, 3, 3);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(197, 41);
-            this.comboBox1.TabIndex = 6;
+            this.comboBox1.TabIndex = 7;
+            // 
+            // flowLayoutPanel4
+            // 
+            this.flowLayoutPanel4.Controls.Add(this.comboBox1);
+            this.flowLayoutPanel4.Controls.Add(this.panel14);
+            this.flowLayoutPanel4.Controls.Add(this.button9);
+            this.flowLayoutPanel4.Controls.Add(this.panel15);
+            this.flowLayoutPanel4.Controls.Add(this.button10);
+            this.flowLayoutPanel4.Controls.Add(this.panel16);
+            this.flowLayoutPanel4.Controls.Add(this.button11);
+            this.flowLayoutPanel4.Controls.Add(this.panel17);
+            this.flowLayoutPanel4.Controls.Add(this.button12);
+            this.flowLayoutPanel4.Location = new System.Drawing.Point(322, 224);
+            this.flowLayoutPanel4.Name = "flowLayoutPanel4";
+            this.flowLayoutPanel4.Size = new System.Drawing.Size(1478, 68);
+            this.flowLayoutPanel4.TabIndex = 8;
+            // 
+            // panel14
+            // 
+            this.panel14.Location = new System.Drawing.Point(206, 3);
+            this.panel14.Name = "panel14";
+            this.panel14.Size = new System.Drawing.Size(129, 65);
+            this.panel14.TabIndex = 8;
             // 
             // button9
             // 
             this.button9.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button9.Location = new System.Drawing.Point(1227, 249);
-            this.button9.Margin = new System.Windows.Forms.Padding(30, 0, 3, 3);
+            this.button9.Location = new System.Drawing.Point(341, 12);
+            this.button9.Margin = new System.Windows.Forms.Padding(3, 12, 3, 3);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(124, 51);
             this.button9.TabIndex = 11;
-            this.button9.Text = "执行";
+            this.button9.Text = "运行";
             this.button9.UseVisualStyleBackColor = true;
+            // 
+            // panel15
+            // 
+            this.panel15.Location = new System.Drawing.Point(471, 3);
+            this.panel15.Name = "panel15";
+            this.panel15.Size = new System.Drawing.Size(97, 65);
+            this.panel15.TabIndex = 9;
             // 
             // button10
             // 
             this.button10.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button10.Location = new System.Drawing.Point(1401, 249);
-            this.button10.Margin = new System.Windows.Forms.Padding(30, 0, 3, 3);
+            this.button10.Location = new System.Drawing.Point(574, 12);
+            this.button10.Margin = new System.Windows.Forms.Padding(3, 12, 3, 3);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(124, 51);
             this.button10.TabIndex = 12;
-            this.button10.Text = "撤销";
+            this.button10.Text = "阻塞";
             this.button10.UseVisualStyleBackColor = true;
             // 
-            // dataGridView1
+            // panel16
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.序号,
-            this.作业名,
-            this.周期,
-            this.服务时间});
-            this.dataGridView1.Location = new System.Drawing.Point(422, 353);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.RowTemplate.Height = 30;
-            this.dataGridView1.Size = new System.Drawing.Size(1174, 400);
-            this.dataGridView1.TabIndex = 13;
+            this.panel16.Location = new System.Drawing.Point(704, 3);
+            this.panel16.Name = "panel16";
+            this.panel16.Size = new System.Drawing.Size(97, 65);
+            this.panel16.TabIndex = 13;
             // 
-            // 序号
+            // button11
             // 
-            this.序号.HeaderText = "序号";
-            this.序号.MinimumWidth = 8;
-            this.序号.Name = "序号";
-            this.序号.Width = 150;
+            this.button11.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button11.Location = new System.Drawing.Point(807, 12);
+            this.button11.Margin = new System.Windows.Forms.Padding(3, 12, 3, 3);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(124, 51);
+            this.button11.TabIndex = 14;
+            this.button11.Text = "激活";
+            this.button11.UseVisualStyleBackColor = true;
             // 
-            // 作业名
+            // panel17
             // 
-            this.作业名.HeaderText = "作业名";
-            this.作业名.MinimumWidth = 8;
-            this.作业名.Name = "作业名";
-            this.作业名.Width = 150;
+            this.panel17.Location = new System.Drawing.Point(937, 3);
+            this.panel17.Name = "panel17";
+            this.panel17.Size = new System.Drawing.Size(97, 65);
+            this.panel17.TabIndex = 15;
             // 
-            // 周期
+            // button12
             // 
-            this.周期.HeaderText = "周期";
-            this.周期.MinimumWidth = 8;
-            this.周期.Name = "周期";
-            this.周期.Width = 150;
+            this.button12.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button12.Location = new System.Drawing.Point(1040, 12);
+            this.button12.Margin = new System.Windows.Forms.Padding(3, 12, 3, 3);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(124, 51);
+            this.button12.TabIndex = 16;
+            this.button12.Text = "中止";
+            this.button12.UseVisualStyleBackColor = true;
             // 
-            // 服务时间
-            // 
-            this.服务时间.HeaderText = "服务时间";
-            this.服务时间.MinimumWidth = 8;
-            this.服务时间.Name = "服务时间";
-            this.服务时间.Width = 150;
-            // 
-            // processScheduing
+            // processControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
-            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(1844, 912);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.label19);
-            this.Controls.Add(this.label18);
             this.Controls.Add(this.flowLayoutPanel3);
-            this.Name = "processScheduing";
+            this.Controls.Add(this.flowLayoutPanel4);
+            this.Name = "processControl";
+            this.Controls.SetChildIndex(this.flowLayoutPanel4, 0);
             this.Controls.SetChildIndex(this.flowLayoutPanel3, 0);
-            this.Controls.SetChildIndex(this.label18, 0);
-            this.Controls.SetChildIndex(this.label19, 0);
-            this.Controls.SetChildIndex(this.comboBox1, 0);
-            this.Controls.SetChildIndex(this.button9, 0);
-            this.Controls.SetChildIndex(this.button10, 0);
             this.Controls.SetChildIndex(this.dataGridView1, 0);
             this.flowLayoutPanel3.ResumeLayout(false);
             this.flowLayoutPanel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.flowLayoutPanel4.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -303,15 +353,21 @@
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn 序号;
-        private System.Windows.Forms.DataGridViewTextBoxColumn 作业名;
+        private System.Windows.Forms.DataGridViewTextBoxColumn 进程名;
         private System.Windows.Forms.DataGridViewTextBoxColumn 周期;
-        private System.Windows.Forms.DataGridViewTextBoxColumn 服务时间;
+        private System.Windows.Forms.DataGridViewTextBoxColumn 执行时间;
+        private System.Windows.Forms.DataGridViewTextBoxColumn 进程状态;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel4;
+        private System.Windows.Forms.Panel panel14;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Panel panel15;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Panel panel16;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Panel panel17;
+        private System.Windows.Forms.Button button12;
     }
 }
