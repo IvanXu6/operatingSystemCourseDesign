@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 
 namespace 操作系统模拟系统
 {
@@ -11,11 +12,7 @@ namespace 操作系统模拟系统
         Terminated//终止
     }
 
-<<<<<<< Updated upstream
     public class ProcessController//进程控制类，对进程执行相关操作
-=======
-    public class ProcessController
->>>>>>> Stashed changes
     {
         /// <summary>
         /// processes字典存储了所有进程的实例，键是进程ID，值是Process类的实例。
@@ -25,83 +22,32 @@ namespace 操作系统模拟系统
         /// processStates字典存储了每个进程的当前状态，键是进程ID，值是ProcessState枚举。
         /// </summary>
         public Dictionary<int, ProcessState> processStates = new Dictionary<int, ProcessState>();
-<<<<<<< Updated upstream
         public Scheduler scheduler;
 
         public List<Process> suspendedProcesses = new List<Process>(); // 模拟外存中的挂起进程列表
 
 
-=======
-        /// <summary>
-        /// 调度器
-        /// </summary>
-        public Scheduler scheduler;
-        /// <summary>
-        /// 挂起队列
-        /// </summary>
-        public List<Process> suspendedProcesses = new List<Process>();
-
-        /// <summary>
-        /// 设置调度器
-        /// </summary>
-        /// <param name="scheduler"></param>
->>>>>>> Stashed changes
         public void SetScheduler(Scheduler scheduler)
         {
             this.scheduler = scheduler;
         }
 
-<<<<<<< Updated upstream
         //创建进程
-        public Process CreateProcess(int processId, int period, int executionTime)
+        public Process CreateProcess(int processId,string processName, int period, int executionTime)
         {
             //检查该ID是否被创建
-=======
-        /// <summary>
-        /// 清空调度队列
-        /// </summary>
-        public void ClearSchedulingQueue()
-        {
-            suspendedProcesses.Clear();
-        }
-
-        /// <summary>
-        /// 创建一个进程
-        /// </summary>
-        /// <param name="processId">进程ID</param>
-        /// <param name="processName">进程名</param>
-        /// <param name="period">周期</param>
-        /// <param name="executionTime">执行时间</param>
-        /// <returns></returns>
-        /// <exception cref="ArgumentException"></exception>
-        public Process CreateProcess(int processId, string processName, int period, int executionTime)
-        {
->>>>>>> Stashed changes
             if (processes.ContainsKey(processId))
             {
                 throw new ArgumentException("该ID进程已被创建");
             }
 
-<<<<<<< Updated upstream
-            Process newProcess = new Process(processId, period, executionTime);
+            Process newProcess = new Process(processId, processName, period, executionTime);
             processes.Add(processId, newProcess);//将进程放入processes
             processStates.Add(processId, ProcessState.Ready);//进程状态设为就绪
             return newProcess;
         }
 
         //终止进程
-=======
-            Process newProcess = new Process(processId, processName, period, executionTime);
-            processes.Add(processId, newProcess);
-            processStates.Add(processId, ProcessState.Ready);
-            return newProcess;
-        }
-
-        /// <summary>
-        /// 终止进程
-        /// </summary>
-        /// <param name="processId"></param>
->>>>>>> Stashed changes
         public void TerminateProcess(int processId)
         {
             if (processes.ContainsKey(processId))
@@ -111,14 +57,7 @@ namespace 操作系统模拟系统
             }
         }
 
-<<<<<<< Updated upstream
         // 挂起进程
-=======
-        /// <summary>
-        /// 挂起进程
-        /// </summary>
-        /// <param name="processId"></param>
->>>>>>> Stashed changes
         public void SuspendProcess(int processId)
         {
             if (processes.TryGetValue(processId, out Process process))
@@ -129,14 +68,7 @@ namespace 操作系统模拟系统
             }
         }
 
-<<<<<<< Updated upstream
         // 激活进程
-=======
-        /// <summary>
-        /// 激活进程
-        /// </summary>
-        /// <param name="processId"></param>
->>>>>>> Stashed changes
         public void ActivateProcess(int processId)
         {
             Process processToActivate = suspendedProcesses.Find(p => p.ProcessId == processId);
@@ -149,14 +81,7 @@ namespace 操作系统模拟系统
         }
 
 
-<<<<<<< Updated upstream
         //监控进程
-=======
-        /// <summary>
-        /// 监控进程
-        /// </summary>
-        /// <param name="currentTime"></param>
->>>>>>> Stashed changes
         public void MonitorProcesses(int currentTime)
         {
             foreach (var process in processes.Values)
@@ -179,7 +104,6 @@ namespace 操作系统模拟系统
                 }
             }
         }
-<<<<<<< Updated upstream
 
 
 
@@ -218,9 +142,4 @@ namespace 操作系统模拟系统
 
     }
 
-=======
-    }
-
-
->>>>>>> Stashed changes
 }

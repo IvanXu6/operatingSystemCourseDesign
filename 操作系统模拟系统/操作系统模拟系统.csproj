@@ -46,14 +46,38 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< Updated upstream
     <Compile Include="EDF.cs" />
     <Compile Include="LLF.cs" />
+=======
+    <Compile Include="AndSemaphore.cs" />
+    <Compile Include="BankersAlgorithm.cs" />
+    <Compile Include="CountingSemaphore.cs" />
+    <Compile Include="EDF.cs" />
+    <Compile Include="LLF.cs" />
+    <Compile Include="Process.cs" />
+    <Compile Include="ProcessController.cs" />
+    <Compile Include="ProcessForDeadlockAvoid.cs" />
+    <Compile Include="processSynchronization.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="processSynchronization.Designer.cs">
+      <DependentUpon>processSynchronization.cs</DependentUpon>
+    </Compile>
+    <Compile Include="processScheduing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="processScheduing.Designer.cs">
+      <DependentUpon>processScheduing.cs</DependentUpon>
+    </Compile>
+>>>>>>> Stashed changes
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
+<<<<<<< Updated upstream
     <Compile Include="Process.cs" />
     <Compile Include="ProcessController.cs" />
     <Compile Include="Program.cs" />
@@ -62,6 +86,22 @@
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
+=======
+    <Compile Include="ProducerConsumer.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scheduler.cs" />
+    <Compile Include="Semaphore.cs" />
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="processScheduing.resx">
+      <DependentUpon>processScheduing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="processSynchronization.resx">
+      <DependentUpon>processSynchronization.cs</DependentUpon>
+    </EmbeddedResource>
+>>>>>>> Stashed changes
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
