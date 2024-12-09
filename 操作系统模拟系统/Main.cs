@@ -92,5 +92,17 @@ namespace 操作系统模拟系统
             processDeadlockHandling.Show();
             this.Hide();
         }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+            MemoryAllcation memoryAllcation =new MemoryAllcation();
+            memoryAllcation.Show();
+            this.Hide();
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

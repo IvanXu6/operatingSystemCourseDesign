@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ThreadMechanisms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThreadMechanisms.Designer.cs">
+      <DependentUpon>ThreadMechanisms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemoryAllcation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemoryAllcation.Designer.cs">
+      <DependentUpon>MemoryAllcation.cs</DependentUpon>
+    </Compile>
     <Compile Include="processControl.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +93,9 @@
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MemoryAllcation.resx">
+      <DependentUpon>MemoryAllcation.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="processControl.resx">
       <DependentUpon>processControl.cs</DependentUpon>
     </EmbeddedResource>
@@ -102,6 +117,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ThreadMechanisms.resx">
+      <DependentUpon>ThreadMechanisms.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

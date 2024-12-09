@@ -60,9 +60,6 @@
             this.panel11 = new System.Windows.Forms.Panel();
             this.label10 = new System.Windows.Forms.Label();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.panel12 = new System.Windows.Forms.Panel();
-            this.label11 = new System.Windows.Forms.Label();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.panel13 = new System.Windows.Forms.Panel();
             this.label12 = new System.Windows.Forms.Label();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
@@ -98,8 +95,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.panel11.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            this.panel12.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.panel13.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
@@ -130,7 +125,6 @@
             this.flowLayoutPanel2.Controls.Add(this.panel10);
             this.flowLayoutPanel2.Controls.Add(this.label9);
             this.flowLayoutPanel2.Controls.Add(this.panel11);
-            this.flowLayoutPanel2.Controls.Add(this.panel12);
             this.flowLayoutPanel2.Controls.Add(this.panel13);
             this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
@@ -375,6 +369,7 @@
             this.label8.Size = new System.Drawing.Size(168, 26);
             this.label8.TabIndex = 3;
             this.label8.Text = "内存分配展示";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // pictureBox8
             // 
@@ -417,6 +412,7 @@
             this.label10.Size = new System.Drawing.Size(168, 26);
             this.label10.TabIndex = 3;
             this.label10.Text = "外存访问展示";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // pictureBox9
             // 
@@ -427,41 +423,11 @@
             this.pictureBox9.TabIndex = 0;
             this.pictureBox9.TabStop = false;
             // 
-            // panel12
-            // 
-            this.panel12.Controls.Add(this.label11);
-            this.panel12.Controls.Add(this.pictureBox10);
-            this.panel12.Location = new System.Drawing.Point(3, 619);
-            this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(254, 44);
-            this.panel12.TabIndex = 13;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("宋体", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label11.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label11.Location = new System.Drawing.Point(73, 10);
-            this.label11.Margin = new System.Windows.Forms.Padding(3, 10, 3, 0);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(168, 26);
-            this.label11.TabIndex = 3;
-            this.label11.Text = "线程机制展示";
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Location = new System.Drawing.Point(21, 0);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(46, 44);
-            this.pictureBox10.TabIndex = 0;
-            this.pictureBox10.TabStop = false;
-            // 
             // panel13
             // 
             this.panel13.Controls.Add(this.label12);
             this.panel13.Controls.Add(this.pictureBox11);
-            this.panel13.Location = new System.Drawing.Point(3, 669);
+            this.panel13.Location = new System.Drawing.Point(3, 619);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(254, 44);
             this.panel13.TabIndex = 14;
@@ -653,9 +619,6 @@
             this.panel11.ResumeLayout(false);
             this.panel11.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            this.panel12.ResumeLayout(false);
-            this.panel12.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.panel13.ResumeLayout(false);
             this.panel13.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
@@ -710,9 +673,6 @@
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.Panel panel12;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.Panel panel13;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.PictureBox pictureBox11;

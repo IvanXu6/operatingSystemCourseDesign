@@ -12,3 +12,5 @@ C:\Users\ivanx\Documents\GitHub\Operating-system-course-design\操作系统模�
 C:\Users\ivanx\Documents\GitHub\Operating-system-course-design\操作系统模拟系统\obj\Debug\操作系统模拟系统.processSynchronization.resources
 C:\Users\ivanx\Documents\GitHub\Operating-system-course-design\操作系统模拟系统\obj\Debug\操作系统模拟系统.processControl.resources
 C:\Users\ivanx\Documents\GitHub\Operating-system-course-design\操作系统模拟系统\obj\Debug\操作系统模拟系统.processDeadlockHandling.resources
+C:\Users\ivanx\Documents\GitHub\Operating-system-course-design\操作系统模拟系统\obj\Debug\操作系统模拟系统.MemoryAllcation.resources
+C:\Users\ivanx\Documents\GitHub\Operating-system-course-design\操作系统模拟系统\obj\Debug\操作系统模拟系统.ThreadMechanisms.resources
