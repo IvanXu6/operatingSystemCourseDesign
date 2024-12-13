@@ -8,3 +8,24 @@ C:\Users\ivanx\Documents\GitHub\Operating-system-course-design\操作系统模�
 C:\Users\ivanx\Documents\GitHub\Operating-system-course-design\操作系统模拟系统\obj\Debug\操作系统模拟系统.exe
 C:\Users\ivanx\Documents\GitHub\Operating-system-course-design\操作系统模拟系统\obj\Debug\操作系统模拟系统.pdb
 C:\Users\ivanx\Documents\GitHub\Operating-system-course-design\操作系统模拟系统\obj\Debug\操作系统模拟系统.Main.resources
+<<<<<<< Updated upstream
+=======
+C:\Users\ivanx\Documents\GitHub\Operating-system-course-design\操作系统模拟系统\obj\Debug\操作系统模拟系统.processScheduing.resources
+C:\Users\ivanx\Documents\GitHub\Operating-system-course-design\操作系统模拟系统\obj\Debug\操作系统模拟系统.processSynchronization.resources
+C:\Users\ivanx\Documents\GitHub\Operating-system-course-design\操作系统模拟系统\obj\Debug\操作系统模拟系统.processControl.resources
+C:\Users\ivanx\Documents\GitHub\Operating-system-course-design\操作系统模拟系统\obj\Debug\操作系统模拟系统.processDeadlockHandling.resources
+C:\Users\xzn\Desktop\操作系统\课设\github\Operating-system-course-design\操作系统模拟系统\bin\Debug\操作系统模拟系统.exe.config
+C:\Users\xzn\Desktop\操作系统\课设\github\Operating-system-course-design\操作系统模拟系统\bin\Debug\操作系统模拟系统.exe
+C:\Users\xzn\Desktop\操作系统\课设\github\Operating-system-course-design\操作系统模拟系统\bin\Debug\操作系统模拟系统.pdb
+C:\Users\xzn\Desktop\操作系统\课设\github\Operating-system-course-design\操作系统模拟系统\obj\Debug\操作系统模拟系统.csproj.AssemblyReference.cache
+C:\Users\xzn\Desktop\操作系统\课设\github\Operating-system-course-design\操作系统模拟系统\obj\Debug\操作系统模拟系统.Main.resources
+C:\Users\xzn\Desktop\操作系统\课设\github\Operating-system-course-design\操作系统模拟系统\obj\Debug\操作系统模拟系统.processControl.resources
+C:\Users\xzn\Desktop\操作系统\课设\github\Operating-system-course-design\操作系统模拟系统\obj\Debug\操作系统模拟系统.processDeadlockHandling.resources
+C:\Users\xzn\Desktop\操作系统\课设\github\Operating-system-course-design\操作系统模拟系统\obj\Debug\操作系统模拟系统.processScheduing.resources
+C:\Users\xzn\Desktop\操作系统\课设\github\Operating-system-course-design\操作系统模拟系统\obj\Debug\操作系统模拟系统.processSynchronization.resources
+C:\Users\xzn\Desktop\操作系统\课设\github\Operating-system-course-design\操作系统模拟系统\obj\Debug\操作系统模拟系统.Properties.Resources.resources
+C:\Users\xzn\Desktop\操作系统\课设\github\Operating-system-course-design\操作系统模拟系统\obj\Debug\操作系统模拟系统.csproj.GenerateResource.cache
+C:\Users\xzn\Desktop\操作系统\课设\github\Operating-system-course-design\操作系统模拟系统\obj\Debug\操作系统模拟系统.csproj.CoreCompileInputs.cache
+C:\Users\xzn\Desktop\操作系统\课设\github\Operating-system-course-design\操作系统模拟系统\obj\Debug\操作系统模拟系统.exe
+C:\Users\xzn\Desktop\操作系统\课设\github\Operating-system-course-design\操作系统模拟系统\obj\Debug\操作系统模拟系统.pdb
+>>>>>>> Stashed changes

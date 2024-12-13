@@ -1,4 +1,5 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,11 +10,18 @@ namespace 操作系统模拟系统
 =======
 ﻿namespace 操作系统模拟系统
 >>>>>>> Stashed changes
+=======
+﻿namespace 操作系统模拟系统
+>>>>>>> Stashed changes
 {
     public class Process
     {
         public int ProcessId { get; private set; }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+        public string ProcessName { get; private set; }
+>>>>>>> Stashed changes
 =======
         public string ProcessName { get; private set; }
 >>>>>>> Stashed changes
@@ -24,14 +32,20 @@ namespace 操作系统模拟系统
         public int NextReleaseTime { get; private set; } // 下一次释放时间
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         public Process(int processId, int period, int executionTime)
         {
             ProcessId = processId;
 =======
+=======
+>>>>>>> Stashed changes
         public Process(int processId,string processname, int period, int executionTime)
         {
             ProcessId = processId;
             ProcessName = processname;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             Period = period;
             ExecutionTime = executionTime;
@@ -70,6 +84,10 @@ namespace 操作系统模拟系统
                 Reset();
             }
         }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
     }
 
 }

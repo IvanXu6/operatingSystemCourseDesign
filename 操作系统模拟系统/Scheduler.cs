@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace 操作系统模拟系统
 {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     public abstract class Scheduler//调度器
     {
         protected ProcessController controller;
@@ -19,6 +20,8 @@ namespace 操作系统模拟系统
         public abstract Process SelectNextProcess(int currentTime);
     }
 =======
+=======
+>>>>>>> Stashed changes
     public abstract class Scheduler
     {
         protected ProcessController processController;
@@ -37,10 +40,17 @@ namespace 操作系统模拟系统
             processController.ClearSchedulingQueue(); // 清空调度队列
             foreach (var processId in processController.processes.Keys)
             {
+<<<<<<< Updated upstream
                 processController.processStates[processId] = ProcessState.Ready; // 将所有进程状态恢复为就绪态
+=======
+                processController.processStates[processId] = ProcessState.就绪; // 将所有进程状态恢复为就绪态
+>>>>>>> Stashed changes
             }
         }
     }
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 }

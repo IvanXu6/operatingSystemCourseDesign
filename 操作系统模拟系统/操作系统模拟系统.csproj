@@ -47,16 +47,35 @@
   </ItemGroup>
   <ItemGroup>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <Compile Include="EDF.cs" />
     <Compile Include="LLF.cs" />
 =======
+=======
+>>>>>>> Stashed changes
     <Compile Include="AndSemaphore.cs" />
     <Compile Include="BankersAlgorithm.cs" />
     <Compile Include="CountingSemaphore.cs" />
     <Compile Include="EDF.cs" />
     <Compile Include="LLF.cs" />
     <Compile Include="Process.cs" />
+<<<<<<< Updated upstream
     <Compile Include="ProcessController.cs" />
+=======
+    <Compile Include="processControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="processControl.Designer.cs">
+      <DependentUpon>processControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProcessController.cs" />
+    <Compile Include="processDeadlockHandling.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="processDeadlockHandling.Designer.cs">
+      <DependentUpon>processDeadlockHandling.cs</DependentUpon>
+    </Compile>
+>>>>>>> Stashed changes
     <Compile Include="ProcessForDeadlockAvoid.cs" />
     <Compile Include="processSynchronization.cs">
       <SubType>Form</SubType>
@@ -78,11 +97,19 @@
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <Compile Include="Process.cs" />
     <Compile Include="ProcessController.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Scheduler.cs" />
+=======
+    <Compile Include="ProducerConsumer.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scheduler.cs" />
+    <Compile Include="Semaphore.cs" />
+>>>>>>> Stashed changes
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
@@ -111,6 +138,10 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="Properties\DataSources\processControl.datasource" />
+    <None Include="Properties\DataSources\ProcessController.datasource" />
+    <None Include="Properties\DataSources\操作系统模拟系统.Properties.Resources.datasource" />
+    <None Include="Properties\DataSources\操作系统模拟系统.Properties.Settings.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

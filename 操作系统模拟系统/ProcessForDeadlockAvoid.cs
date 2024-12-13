@@ -2,7 +2,11 @@
 
 namespace 操作系统模拟系统
 {
+<<<<<<< Updated upstream
     class ProcessForDeadlockAvoid
+=======
+    public class ProcessForDeadlockAvoid
+>>>>>>> Stashed changes
     {
         public int ProcessId { get; private set; }
         public string ProcessName { get; private set; }
@@ -21,10 +25,17 @@ namespace 操作系统模拟系统
             AllocatedResources = new int[maxResourceTypes];
             NeedResources = new int[maxResourceTypes];
 
+<<<<<<< Updated upstream
             // 随机生成最大资源需求 (最大需求在 1 到 10 之间)
             for (int i = 0; i < maxResourceTypes; i++)
             {
                 MaxResources[i] = random.Next(1, 11);
+=======
+            // 随机生成最大资源需求 (最大需求在 4 到 9 之间)
+            for (int i = 0; i < maxResourceTypes; i++)
+            {
+                MaxResources[i] = random.Next(4, 10);
+>>>>>>> Stashed changes
                 AllocatedResources[i] = random.Next(0, MaxResources[i] + 1); // 已分配资源随机生成，最大不超过需求
                 NeedResources[i] = MaxResources[i] - AllocatedResources[i];
             }

@@ -16,7 +16,11 @@ namespace 操作系统模拟系统
                 {
                     Monitor.Wait(lockObject);  // 等待信号
                 }
+<<<<<<< Updated upstream
                 signal = false;  // 重置信号状态
+=======
+                signal = false;  // 重置信号状态，确保生产/消费操作可以继续
+>>>>>>> Stashed changes
             }
         }
 
@@ -25,9 +29,17 @@ namespace 操作系统模拟系统
             lock (lockObject)
             {
                 signal = true;  // 设置信号状态为真
+<<<<<<< Updated upstream
                 Monitor.Pulse(lockObject);  // 唤醒等待的线程
+=======
+                Monitor.Pulse(lockObject);  // 唤醒一个等待的线程
+>>>>>>> Stashed changes
             }
         }
     }
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 }
