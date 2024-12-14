@@ -32,15 +32,15 @@
             this.回收内存 = new System.Windows.Forms.Button();
             this.申请内存 = new System.Windows.Forms.Button();
             this.内存分配演示表格 = new System.Windows.Forms.DataGridView();
-            this.内存分配日志区 = new System.Windows.Forms.TextBox();
-            this.内存区域 = new System.Windows.Forms.Label();
-            this.分配算法选择 = new System.Windows.Forms.ComboBox();
-            this.分配算法 = new System.Windows.Forms.Label();
             this.起始地址 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.结束地址 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.内存块大小 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.内存块状态 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.作业号 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.内存分配日志区 = new System.Windows.Forms.TextBox();
+            this.内存区域 = new System.Windows.Forms.Label();
+            this.分配算法选择 = new System.Windows.Forms.ComboBox();
+            this.分配算法 = new System.Windows.Forms.Label();
             this.所需内存 = new System.Windows.Forms.TextBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.内存区域大小输入框 = new System.Windows.Forms.TextBox();
@@ -78,6 +78,7 @@
             this.回收内存.TabIndex = 4;
             this.回收内存.Text = "回收内存";
             this.回收内存.UseVisualStyleBackColor = true;
+            this.回收内存.Click += new System.EventHandler(this.回收内存_Click);
             // 
             // 申请内存
             // 
@@ -88,6 +89,7 @@
             this.申请内存.TabIndex = 5;
             this.申请内存.Text = "申请内存";
             this.申请内存.UseVisualStyleBackColor = true;
+            this.申请内存.Click += new System.EventHandler(this.申请内存_Click);
             // 
             // 内存分配演示表格
             // 
@@ -104,6 +106,41 @@
             this.内存分配演示表格.RowTemplate.Height = 30;
             this.内存分配演示表格.Size = new System.Drawing.Size(1236, 379);
             this.内存分配演示表格.TabIndex = 6;
+            // 
+            // 起始地址
+            // 
+            this.起始地址.HeaderText = "起始地址";
+            this.起始地址.MinimumWidth = 8;
+            this.起始地址.Name = "起始地址";
+            this.起始地址.Width = 200;
+            // 
+            // 结束地址
+            // 
+            this.结束地址.HeaderText = "结束地址";
+            this.结束地址.MinimumWidth = 8;
+            this.结束地址.Name = "结束地址";
+            this.结束地址.Width = 200;
+            // 
+            // 内存块大小
+            // 
+            this.内存块大小.HeaderText = "内存块大小";
+            this.内存块大小.MinimumWidth = 8;
+            this.内存块大小.Name = "内存块大小";
+            this.内存块大小.Width = 200;
+            // 
+            // 内存块状态
+            // 
+            this.内存块状态.HeaderText = "内存块状态";
+            this.内存块状态.MinimumWidth = 8;
+            this.内存块状态.Name = "内存块状态";
+            this.内存块状态.Width = 150;
+            // 
+            // 作业号
+            // 
+            this.作业号.HeaderText = "作业号";
+            this.作业号.MinimumWidth = 8;
+            this.作业号.Name = "作业号";
+            this.作业号.Width = 150;
             // 
             // 内存分配日志区
             // 
@@ -146,41 +183,6 @@
             this.分配算法.Size = new System.Drawing.Size(106, 24);
             this.分配算法.TabIndex = 10;
             this.分配算法.Text = "分配算法";
-            // 
-            // 起始地址
-            // 
-            this.起始地址.HeaderText = "起始地址";
-            this.起始地址.MinimumWidth = 8;
-            this.起始地址.Name = "起始地址";
-            this.起始地址.Width = 200;
-            // 
-            // 结束地址
-            // 
-            this.结束地址.HeaderText = "结束地址";
-            this.结束地址.MinimumWidth = 8;
-            this.结束地址.Name = "结束地址";
-            this.结束地址.Width = 200;
-            // 
-            // 内存块大小
-            // 
-            this.内存块大小.HeaderText = "内存块大小";
-            this.内存块大小.MinimumWidth = 8;
-            this.内存块大小.Name = "内存块大小";
-            this.内存块大小.Width = 200;
-            // 
-            // 内存块状态
-            // 
-            this.内存块状态.HeaderText = "内存块状态";
-            this.内存块状态.MinimumWidth = 8;
-            this.内存块状态.Name = "内存块状态";
-            this.内存块状态.Width = 150;
-            // 
-            // 作业号
-            // 
-            this.作业号.HeaderText = "作业号";
-            this.作业号.MinimumWidth = 8;
-            this.作业号.Name = "作业号";
-            this.作业号.Width = 150;
             // 
             // 所需内存
             // 
@@ -234,6 +236,7 @@
             this.初始化内存分配.TabIndex = 15;
             this.初始化内存分配.Text = "初始化";
             this.初始化内存分配.UseVisualStyleBackColor = true;
+            this.初始化内存分配.Click += new System.EventHandler(this.初始化内存分配_Click);
             // 
             // 清空日志
             // 
