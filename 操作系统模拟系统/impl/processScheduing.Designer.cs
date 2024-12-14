@@ -1,6 +1,6 @@
 ﻿namespace 操作系统模拟系统
 {
-    partial class processControl
+    partial class processScheduing
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -29,6 +29,12 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            this.调度算法 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.Btn_Schedule = new System.Windows.Forms.Button();
+            this.Btn_Reset = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.txt_Diary = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.lab_processID = new System.Windows.Forms.Label();
             this.txt_processID = new System.Windows.Forms.TextBox();
@@ -39,33 +45,90 @@
             this.lab_processExecutionTime = new System.Windows.Forms.Label();
             this.txt_processExecutionTime = new System.Windows.Forms.TextBox();
             this.btn_createProcess = new System.Windows.Forms.Button();
-            this.processView = new System.Windows.Forms.DataGridView();
             this.序号 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.进程名 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.周期 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.执行时间 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.截止时间 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.进程状态 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.combo_chooseProcess = new System.Windows.Forms.ComboBox();
-            this.processControlBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
-            this.panel14 = new System.Windows.Forms.Panel();
-            this.btn_Running = new System.Windows.Forms.Button();
-            this.panel15 = new System.Windows.Forms.Panel();
-            this.btn_Blocked = new System.Windows.Forms.Button();
-            this.panel16 = new System.Windows.Forms.Panel();
-            this.btn_Ready = new System.Windows.Forms.Button();
-            this.panel17 = new System.Windows.Forms.Panel();
-            this.btn_Terminated = new System.Windows.Forms.Button();
-            this.processControllerBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.processControllerBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.txt_Diary = new System.Windows.Forms.TextBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.flowLayoutPanel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.processView)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.processControlBindingSource)).BeginInit();
-            this.flowLayoutPanel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.processControllerBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.processControllerBindingSource1)).BeginInit();
             this.SuspendLayout();
+            // 
+            // 调度算法
+            // 
+            this.调度算法.AutoSize = true;
+            this.调度算法.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.调度算法.Location = new System.Drawing.Point(285, 316);
+            this.调度算法.Margin = new System.Windows.Forms.Padding(3, 12, 3, 0);
+            this.调度算法.Name = "调度算法";
+            this.调度算法.Size = new System.Drawing.Size(124, 28);
+            this.调度算法.TabIndex = 5;
+            this.调度算法.Text = "调度算法";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.Font = new System.Drawing.Font("宋体", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "EDF调度算法",
+            "LLF调度算法"});
+            this.comboBox1.Location = new System.Drawing.Point(480, 309);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(239, 41);
+            this.comboBox1.TabIndex = 6;
+            this.comboBox1.Text = "EDF调度算法";
+            // 
+            // Btn_Schedule
+            // 
+            this.Btn_Schedule.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.Btn_Schedule.Location = new System.Drawing.Point(798, 305);
+            this.Btn_Schedule.Margin = new System.Windows.Forms.Padding(30, 0, 3, 3);
+            this.Btn_Schedule.Name = "Btn_Schedule";
+            this.Btn_Schedule.Size = new System.Drawing.Size(124, 51);
+            this.Btn_Schedule.TabIndex = 11;
+            this.Btn_Schedule.Text = "执行";
+            this.Btn_Schedule.UseVisualStyleBackColor = true;
+            this.Btn_Schedule.Click += new System.EventHandler(this.Btn_Schedule_Click);
+            // 
+            // Btn_Reset
+            // 
+            this.Btn_Reset.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.Btn_Reset.Location = new System.Drawing.Point(989, 305);
+            this.Btn_Reset.Margin = new System.Windows.Forms.Padding(30, 0, 3, 3);
+            this.Btn_Reset.Name = "Btn_Reset";
+            this.Btn_Reset.Size = new System.Drawing.Size(124, 51);
+            this.Btn_Reset.TabIndex = 12;
+            this.Btn_Reset.Text = "重置";
+            this.Btn_Reset.UseVisualStyleBackColor = true;
+            this.Btn_Reset.Click += new System.EventHandler(this.Btn_Reset_Click);
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.序号,
+            this.进程名,
+            this.周期,
+            this.执行时间,
+            this.截止时间,
+            this.进程状态});
+            this.dataGridView1.Location = new System.Drawing.Point(289, 422);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 62;
+            this.dataGridView1.RowTemplate.Height = 30;
+            this.dataGridView1.Size = new System.Drawing.Size(808, 400);
+            this.dataGridView1.TabIndex = 13;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // txt_Diary
+            // 
+            this.txt_Diary.Location = new System.Drawing.Point(1183, 414);
+            this.txt_Diary.Multiline = true;
+            this.txt_Diary.Name = "txt_Diary";
+            this.txt_Diary.Size = new System.Drawing.Size(554, 408);
+            this.txt_Diary.TabIndex = 14;
             // 
             // flowLayoutPanel3
             // 
@@ -78,10 +141,10 @@
             this.flowLayoutPanel3.Controls.Add(this.lab_processExecutionTime);
             this.flowLayoutPanel3.Controls.Add(this.txt_processExecutionTime);
             this.flowLayoutPanel3.Controls.Add(this.btn_createProcess);
-            this.flowLayoutPanel3.Location = new System.Drawing.Point(322, 131);
+            this.flowLayoutPanel3.Location = new System.Drawing.Point(290, 166);
             this.flowLayoutPanel3.Name = "flowLayoutPanel3";
             this.flowLayoutPanel3.Size = new System.Drawing.Size(1478, 61);
-            this.flowLayoutPanel3.TabIndex = 4;
+            this.flowLayoutPanel3.TabIndex = 15;
             // 
             // lab_processID
             // 
@@ -179,250 +242,99 @@
             this.btn_createProcess.UseVisualStyleBackColor = true;
             this.btn_createProcess.Click += new System.EventHandler(this.btn_createProcess_Click);
             // 
-            // processView
-            // 
-            this.processView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.processView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.序号,
-            this.进程名,
-            this.周期,
-            this.执行时间,
-            this.进程状态});
-            this.processView.Location = new System.Drawing.Point(322, 318);
-            this.processView.Name = "processView";
-            this.processView.RowHeadersWidth = 62;
-            this.processView.RowTemplate.Height = 30;
-            this.processView.Size = new System.Drawing.Size(972, 486);
-            this.processView.TabIndex = 5;
-            this.processView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.processView_CellContentClick);
-            // 
             // 序号
             // 
             this.序号.HeaderText = "序号";
             this.序号.MinimumWidth = 8;
             this.序号.Name = "序号";
-            this.序号.Width = 120;
+            this.序号.Width = 150;
             // 
             // 进程名
             // 
             this.进程名.HeaderText = "进程名";
             this.进程名.MinimumWidth = 8;
             this.进程名.Name = "进程名";
-            this.进程名.Width = 120;
+            this.进程名.Width = 150;
             // 
             // 周期
             // 
             this.周期.HeaderText = "周期";
             this.周期.MinimumWidth = 8;
             this.周期.Name = "周期";
-            this.周期.Width = 120;
+            this.周期.Width = 150;
             // 
             // 执行时间
             // 
             this.执行时间.HeaderText = "执行时间";
             this.执行时间.MinimumWidth = 8;
             this.执行时间.Name = "执行时间";
-            this.执行时间.Width = 140;
+            this.执行时间.Width = 150;
+            // 
+            // 截止时间
+            // 
+            this.截止时间.HeaderText = "截止时间";
+            this.截止时间.MinimumWidth = 8;
+            this.截止时间.Name = "截止时间";
+            this.截止时间.Width = 150;
             // 
             // 进程状态
             // 
             this.进程状态.HeaderText = "进程状态";
             this.进程状态.MinimumWidth = 8;
             this.进程状态.Name = "进程状态";
-            this.进程状态.Width = 140;
+            this.进程状态.Width = 150;
             // 
-            // combo_chooseProcess
-            // 
-            this.combo_chooseProcess.Font = new System.Drawing.Font("宋体", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.combo_chooseProcess.FormattingEnabled = true;
-            this.combo_chooseProcess.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5"});
-            this.combo_chooseProcess.Location = new System.Drawing.Point(3, 15);
-            this.combo_chooseProcess.Margin = new System.Windows.Forms.Padding(3, 15, 3, 3);
-            this.combo_chooseProcess.Name = "combo_chooseProcess";
-            this.combo_chooseProcess.Size = new System.Drawing.Size(197, 41);
-            this.combo_chooseProcess.TabIndex = 7;
-            this.combo_chooseProcess.Text = "1";
-            // 
-            // processControlBindingSource
-            // 
-            this.processControlBindingSource.DataSource = typeof(操作系统模拟系统.processControl);
-            // 
-            // flowLayoutPanel4
-            // 
-            this.flowLayoutPanel4.Controls.Add(this.combo_chooseProcess);
-            this.flowLayoutPanel4.Controls.Add(this.panel14);
-            this.flowLayoutPanel4.Controls.Add(this.btn_Running);
-            this.flowLayoutPanel4.Controls.Add(this.panel15);
-            this.flowLayoutPanel4.Controls.Add(this.btn_Blocked);
-            this.flowLayoutPanel4.Controls.Add(this.panel16);
-            this.flowLayoutPanel4.Controls.Add(this.btn_Ready);
-            this.flowLayoutPanel4.Controls.Add(this.panel17);
-            this.flowLayoutPanel4.Controls.Add(this.btn_Terminated);
-            this.flowLayoutPanel4.Location = new System.Drawing.Point(322, 224);
-            this.flowLayoutPanel4.Name = "flowLayoutPanel4";
-            this.flowLayoutPanel4.Size = new System.Drawing.Size(1478, 68);
-            this.flowLayoutPanel4.TabIndex = 8;
-            // 
-            // panel14
-            // 
-            this.panel14.Location = new System.Drawing.Point(206, 3);
-            this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(129, 65);
-            this.panel14.TabIndex = 8;
-            // 
-            // btn_Running
-            // 
-            this.btn_Running.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_Running.Location = new System.Drawing.Point(341, 12);
-            this.btn_Running.Margin = new System.Windows.Forms.Padding(3, 12, 3, 3);
-            this.btn_Running.Name = "btn_Running";
-            this.btn_Running.Size = new System.Drawing.Size(124, 51);
-            this.btn_Running.TabIndex = 11;
-            this.btn_Running.Text = "运行";
-            this.btn_Running.UseVisualStyleBackColor = true;
-            this.btn_Running.Click += new System.EventHandler(this.btn_Running_Click);
-            // 
-            // panel15
-            // 
-            this.panel15.Location = new System.Drawing.Point(471, 3);
-            this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(97, 65);
-            this.panel15.TabIndex = 9;
-            // 
-            // btn_Blocked
-            // 
-            this.btn_Blocked.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_Blocked.Location = new System.Drawing.Point(574, 12);
-            this.btn_Blocked.Margin = new System.Windows.Forms.Padding(3, 12, 3, 3);
-            this.btn_Blocked.Name = "btn_Blocked";
-            this.btn_Blocked.Size = new System.Drawing.Size(124, 51);
-            this.btn_Blocked.TabIndex = 12;
-            this.btn_Blocked.Text = "挂起";
-            this.btn_Blocked.UseVisualStyleBackColor = true;
-            this.btn_Blocked.Click += new System.EventHandler(this.btn_Blocked_Click);
-            // 
-            // panel16
-            // 
-            this.panel16.Location = new System.Drawing.Point(704, 3);
-            this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(97, 65);
-            this.panel16.TabIndex = 13;
-            // 
-            // btn_Ready
-            // 
-            this.btn_Ready.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_Ready.Location = new System.Drawing.Point(807, 12);
-            this.btn_Ready.Margin = new System.Windows.Forms.Padding(3, 12, 3, 3);
-            this.btn_Ready.Name = "btn_Ready";
-            this.btn_Ready.Size = new System.Drawing.Size(124, 51);
-            this.btn_Ready.TabIndex = 14;
-            this.btn_Ready.Text = "激活";
-            this.btn_Ready.UseVisualStyleBackColor = true;
-            this.btn_Ready.Click += new System.EventHandler(this.btn_Ready_Click);
-            // 
-            // panel17
-            // 
-            this.panel17.Location = new System.Drawing.Point(937, 3);
-            this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(97, 65);
-            this.panel17.TabIndex = 15;
-            // 
-            // btn_Terminated
-            // 
-            this.btn_Terminated.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_Terminated.Location = new System.Drawing.Point(1040, 12);
-            this.btn_Terminated.Margin = new System.Windows.Forms.Padding(3, 12, 3, 3);
-            this.btn_Terminated.Name = "btn_Terminated";
-            this.btn_Terminated.Size = new System.Drawing.Size(124, 51);
-            this.btn_Terminated.TabIndex = 16;
-            this.btn_Terminated.Text = "中止";
-            this.btn_Terminated.UseVisualStyleBackColor = true;
-            this.btn_Terminated.Click += new System.EventHandler(this.button12_Click);
-            // 
-            // processControllerBindingSource
-            // 
-            this.processControllerBindingSource.DataSource = typeof(操作系统模拟系统.ProcessController);
-            // 
-            // processControllerBindingSource1
-            // 
-            this.processControllerBindingSource1.DataSource = typeof(操作系统模拟系统.ProcessController);
-            // 
-            // txt_Diary
-            // 
-            this.txt_Diary.Location = new System.Drawing.Point(1499, 318);
-            this.txt_Diary.Multiline = true;
-            this.txt_Diary.Name = "txt_Diary";
-            this.txt_Diary.Size = new System.Drawing.Size(301, 415);
-            this.txt_Diary.TabIndex = 9;
-            // 
-            // processControl
+            // processScheduing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
+            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(1844, 912);
-            this.Controls.Add(this.txt_Diary);
-            this.Controls.Add(this.processView);
             this.Controls.Add(this.flowLayoutPanel3);
-            this.Controls.Add(this.flowLayoutPanel4);
-            this.Name = "processControl";
-            this.Controls.SetChildIndex(this.flowLayoutPanel4, 0);
-            this.Controls.SetChildIndex(this.flowLayoutPanel3, 0);
-            this.Controls.SetChildIndex(this.processView, 0);
+            this.Controls.Add(this.txt_Diary);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.Btn_Reset);
+            this.Controls.Add(this.Btn_Schedule);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.调度算法);
+            this.Name = "processScheduing";
+            this.Controls.SetChildIndex(this.调度算法, 0);
+            this.Controls.SetChildIndex(this.comboBox1, 0);
+            this.Controls.SetChildIndex(this.Btn_Schedule, 0);
+            this.Controls.SetChildIndex(this.Btn_Reset, 0);
+            this.Controls.SetChildIndex(this.dataGridView1, 0);
             this.Controls.SetChildIndex(this.txt_Diary, 0);
+            this.Controls.SetChildIndex(this.flowLayoutPanel3, 0);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.flowLayoutPanel3.ResumeLayout(false);
             this.flowLayoutPanel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.processView)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.processControlBindingSource)).EndInit();
-            this.flowLayoutPanel4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.processControllerBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.processControllerBindingSource1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
+        private System.Windows.Forms.Label 调度算法;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button Btn_Schedule;
+        private System.Windows.Forms.Button Btn_Reset;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.TextBox txt_Diary;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
-
         private System.Windows.Forms.Label lab_processID;
         private System.Windows.Forms.TextBox txt_processID;
-
         private System.Windows.Forms.Label lab_processName;
         private System.Windows.Forms.TextBox txt_processName;
-
         private System.Windows.Forms.Label lab_processPeriod;
         private System.Windows.Forms.TextBox txt_processPeriod;
-
         private System.Windows.Forms.Label lab_processExecutionTime;
         private System.Windows.Forms.TextBox txt_processExecutionTime;
-
         private System.Windows.Forms.Button btn_createProcess;
-
-        private System.Windows.Forms.DataGridView processView;
-
-        private System.Windows.Forms.ComboBox combo_chooseProcess;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel4;
-        private System.Windows.Forms.Panel panel14;
-        private System.Windows.Forms.Button btn_Running;
-        private System.Windows.Forms.Panel panel15;
-        private System.Windows.Forms.Button btn_Blocked;
-        private System.Windows.Forms.Panel panel16;
-        private System.Windows.Forms.Button btn_Ready;
-        private System.Windows.Forms.Panel panel17;
-        private System.Windows.Forms.Button btn_Terminated;
-        private System.Windows.Forms.BindingSource processControlBindingSource;
-        private System.Windows.Forms.BindingSource processControllerBindingSource;
-        private System.Windows.Forms.BindingSource processControllerBindingSource1;
         private System.Windows.Forms.DataGridViewTextBoxColumn 序号;
         private System.Windows.Forms.DataGridViewTextBoxColumn 进程名;
         private System.Windows.Forms.DataGridViewTextBoxColumn 周期;
         private System.Windows.Forms.DataGridViewTextBoxColumn 执行时间;
+        private System.Windows.Forms.DataGridViewTextBoxColumn 截止时间;
         private System.Windows.Forms.DataGridViewTextBoxColumn 进程状态;
-        private System.Windows.Forms.TextBox txt_Diary;
+        private System.Windows.Forms.Timer timer1;
     }
 }

@@ -100,11 +100,11 @@
             this.内存块大小,
             this.内存块状态,
             this.作业号});
-            this.内存分配演示表格.Location = new System.Drawing.Point(411, 441);
+            this.内存分配演示表格.Location = new System.Drawing.Point(562, 441);
             this.内存分配演示表格.Name = "内存分配演示表格";
             this.内存分配演示表格.RowHeadersWidth = 62;
             this.内存分配演示表格.RowTemplate.Height = 30;
-            this.内存分配演示表格.Size = new System.Drawing.Size(1236, 379);
+            this.内存分配演示表格.Size = new System.Drawing.Size(972, 379);
             this.内存分配演示表格.TabIndex = 6;
             // 
             // 起始地址
@@ -155,7 +155,7 @@
             // 
             this.内存区域.AutoSize = true;
             this.内存区域.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.内存区域.Location = new System.Drawing.Point(955, 404);
+            this.内存区域.Location = new System.Drawing.Point(978, 404);
             this.内存区域.Name = "内存区域";
             this.内存区域.Size = new System.Drawing.Size(106, 24);
             this.内存区域.TabIndex = 8;
