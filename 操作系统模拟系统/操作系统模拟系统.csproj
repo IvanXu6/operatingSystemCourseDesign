@@ -46,6 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Process.cs" />
+    <Compile Include="processControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="processControl.Designer.cs">
+      <DependentUpon>processControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProcessController.cs" />
     <Compile Include="ThreadMechanisms.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,12 +65,6 @@
     </Compile>
     <Compile Include="MemoryAllcation.Designer.cs">
       <DependentUpon>MemoryAllcation.cs</DependentUpon>
-    </Compile>
-    <Compile Include="processControl.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="processControl.Designer.cs">
-      <DependentUpon>processControl.cs</DependentUpon>
     </Compile>
     <Compile Include="processDeadlockHandling.cs">
       <SubType>Form</SubType>
