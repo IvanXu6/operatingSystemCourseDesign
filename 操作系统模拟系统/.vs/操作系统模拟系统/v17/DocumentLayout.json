@@ -4,6 +4,7 @@
   "Documents": [
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\memoryallcation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|solutionrelative:memoryallcation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -30,10 +31,22 @@
 <<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processsynchronization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|solutionrelative:processsynchronization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+=======
+      "AbsoluteMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|c:\\users\\ivanx\\documents\\github\\operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|solutionrelative:processcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\memoryallcation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|solutionrelative:memoryallcation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|c:\\users\\ivanx\\documents\\github\\operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|solutionrelative:processcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+>>>>>>> Stashed changes
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|c:\\users\\ivanx\\documents\\github\\operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\memoryallcation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|solutionrelative:memoryallcation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processscheduing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|solutionrelative:processscheduing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,6 +56,7 @@
       "RelativeMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|solutionrelative:process.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|solutionrelative:processcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -69,10 +83,22 @@
 >>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processdeadlockhandling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|solutionrelative:processdeadlockhandling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+=======
+      "AbsoluteMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+>>>>>>> Stashed changes
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processscheduing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|solutionrelative:processscheduing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\memoryallcation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|solutionrelative:memoryallcation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processdeadlockhandling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|solutionrelative:processdeadlockhandling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C8EF2EF-1AEF-4B24-BF68-F8CE6D178967}|\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF.csproj|C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processscheduing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -98,7 +124,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< Updated upstream
           "SelectedChildIndex": 4,
+=======
+          "SelectedChildIndex": 1,
+>>>>>>> Stashed changes
           "Children": [
             {
               "$type": "Bookmark",
@@ -106,6 +136,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 1,
 <<<<<<< Updated upstream
               "Title": "ProcessController.cs",
@@ -114,6 +145,113 @@
               "ToolTip": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\ProcessController.cs",
               "RelativeToolTip": "ProcessController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+=======
+              "DocumentIndex": 0,
+              "Title": "processControl.cs",
+              "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processControl.cs",
+              "RelativeDocumentMoniker": "processControl.cs",
+              "ToolTip": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processControl.cs*",
+              "RelativeToolTip": "processControl.cs*",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAuwBwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T07:26:17.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MemoryAllcation.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\MemoryAllcation.cs",
+              "RelativeDocumentMoniker": "MemoryAllcation.cs",
+              "ToolTip": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\MemoryAllcation.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "MemoryAllcation.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T07:19:52.086Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "processControl.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processControl.cs",
+              "RelativeDocumentMoniker": "processControl.cs",
+              "ToolTip": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processControl.cs [\u8BBE\u8BA1]*",
+              "RelativeToolTip": "processControl.cs [\u8BBE\u8BA1]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T08:05:11.519Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "processDeadlockHandling.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processDeadlockHandling.cs",
+              "RelativeDocumentMoniker": "processDeadlockHandling.cs",
+              "ToolTip": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processDeadlockHandling.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "processDeadlockHandling.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T09:14:46.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Main.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\Main.cs",
+              "RelativeDocumentMoniker": "Main.cs",
+              "ToolTip": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\Main.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "Main.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T08:00:40.324Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\Main.cs",
+              "RelativeDocumentMoniker": "Main.cs",
+              "ToolTip": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\Main.cs",
+              "RelativeToolTip": "Main.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T08:29:09.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "processControl.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processControl.Designer.cs",
+              "RelativeDocumentMoniker": "processControl.Designer.cs",
+              "ToolTip": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processControl.Designer.cs*",
+              "RelativeToolTip": "processControl.Designer.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T08:37:42.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "processScheduing.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processScheduing.cs",
+              "RelativeDocumentMoniker": "processScheduing.cs",
+              "ToolTip": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processScheduing.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "processScheduing.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T08:22:27.355Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MemoryAllcation.cs",
+              "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\MemoryAllcation.cs",
+              "RelativeDocumentMoniker": "MemoryAllcation.cs",
+              "ToolTip": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\MemoryAllcation.cs",
+              "RelativeToolTip": "MemoryAllcation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAJAAAA",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-14T06:56:26.017Z",
               "EditorCaption": ""
@@ -132,6 +270,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 2,
 =======
 >>>>>>> Stashed changes
@@ -297,6 +436,9 @@
 =======
               "DocumentIndex": 11,
 >>>>>>> Stashed changes
+=======
+              "DocumentIndex": 9,
+>>>>>>> Stashed changes
               "Title": "processSynchronization.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processSynchronization.cs",
               "RelativeDocumentMoniker": "processSynchronization.cs",
@@ -308,9 +450,13 @@
             {
               "$type": "Document",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "DocumentIndex": 10,
 =======
               "DocumentIndex": 12,
+>>>>>>> Stashed changes
+=======
+              "DocumentIndex": 10,
 >>>>>>> Stashed changes
               "Title": "processScheduing.cs",
               "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processScheduing.cs",
@@ -319,10 +465,12 @@
               "RelativeToolTip": "processScheduing.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T08:35:49.998Z"
+              "WhenOpened": "2024-11-18T08:35:49.998Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
               "DocumentIndex": 9,
 =======
@@ -343,6 +491,9 @@
 =======
               "DocumentIndex": 14,
 >>>>>>> Stashed changes
+=======
+              "DocumentIndex": 12,
+>>>>>>> Stashed changes
               "Title": "processSynchronization.cs",
               "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processSynchronization.cs",
               "RelativeDocumentMoniker": "processSynchronization.cs",
@@ -355,9 +506,13 @@
             {
               "$type": "Document",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "DocumentIndex": 11,
 =======
               "DocumentIndex": 13,
+>>>>>>> Stashed changes
+=======
+              "DocumentIndex": 11,
 >>>>>>> Stashed changes
               "Title": "processSynchronization.Designer.cs",
               "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\processSynchronization.Designer.cs",
@@ -371,9 +526,13 @@
             {
               "$type": "Document",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "DocumentIndex": 13,
 =======
               "DocumentIndex": 15,
+>>>>>>> Stashed changes
+=======
+              "DocumentIndex": 13,
 >>>>>>> Stashed changes
               "Title": "Main.Designer.cs",
               "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\GitHub\\Operating-system-course-design\\\u64CD\u4F5C\u7CFB\u7EDF\u6A21\u62DF\u7CFB\u7EDF\\Main.Designer.cs",
